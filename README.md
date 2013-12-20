@@ -16,5 +16,6 @@ After that, the following is a simple way to query for this information.
 
 bgolliher@boxen001:~ 1 $ snmpwalk -v2c -c public isiprod02 NET-SNMP-EXTEND-MIB::nsExtendOutLine.\"check_ssd_pool\"
 NET-SNMP-EXTEND-MIB::nsExtendOutLine."check_ssd_pool".1 = STRING: free_ssd_blocks :: 727090721 total_ssd_blocks :: 866908404 :: percent_used :: 16.13
+
 bgolliher@boxen001:~ 2 $
 
